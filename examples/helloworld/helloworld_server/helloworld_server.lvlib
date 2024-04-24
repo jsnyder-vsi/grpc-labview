@@ -11,16 +11,30 @@
 	<Item Name="RPC Messages" Type="Folder">
 		<Item Name="helloworld_HelloRequest" Type="Folder">
 			<Item Name="helloworld_HelloRequest.ctl" Type="VI" URL="../RPC Messages/helloworld_HelloRequest.ctl"/>
+			<Item Name="FlatToRichhelloworld_HelloRequest.vi" Type="VI" URL="../RPC Messages/FlatToRichhelloworld_HelloRequest.vi"/>
+			<Item Name="RichToFlathelloworld_HelloRequest.vi" Type="VI" URL="../RPC Messages/RichToFlathelloworld_HelloRequest.vi"/>
 			<Item Name="Set helloworld_HelloRequest.vi" Type="VI" URL="../RPC Messages/Set helloworld_HelloRequest.vi"/>
 			<Item Name="Get helloworld_HelloRequest.vi" Type="VI" URL="../RPC Messages/Get helloworld_HelloRequest.vi"/>
 		</Item>
 		<Item Name="helloworld_HelloReply" Type="Folder">
 			<Item Name="helloworld_HelloReply.ctl" Type="VI" URL="../RPC Messages/helloworld_HelloReply.ctl"/>
+			<Item Name="FlatToRichhelloworld_HelloReply.vi" Type="VI" URL="../RPC Messages/FlatToRichhelloworld_HelloReply.vi"/>
+			<Item Name="RichToFlathelloworld_HelloReply.vi" Type="VI" URL="../RPC Messages/RichToFlathelloworld_HelloReply.vi"/>
 			<Item Name="Set helloworld_HelloReply.vi" Type="VI" URL="../RPC Messages/Set helloworld_HelloReply.vi"/>
 			<Item Name="Get helloworld_HelloReply.vi" Type="VI" URL="../RPC Messages/Get helloworld_HelloReply.vi"/>
 		</Item>
+		<Item Name="helloworld_HelloRequest_Flat" Type="Folder">
+			<Item Name="helloworld_HelloRequest_Flat.ctl" Type="VI" URL="../RPC Messages/helloworld_HelloRequest_Flat.ctl"/>
+		</Item>
+		<Item Name="helloworld_HelloReply_Flat" Type="Folder">
+			<Item Name="helloworld_HelloReply_Flat.ctl" Type="VI" URL="../RPC Messages/helloworld_HelloReply_Flat.ctl"/>
+		</Item>
 		<Item Name="Register gRPC Messages.vi" Type="VI" URL="../RPC Messages/Register gRPC Messages.vi"/>
 	</Item>
-	<Item Name="Run greeter_server.vi" Type="VI" URL="../Run greeter_server.vi"/>
+	<Item Name="Generated Descriptors" Type="Folder">
+		<Item Name="Generated Descriptors.vi" Type="VI" URL="../Generated Descriptors/Generated Descriptors.vi"/>
+	</Item>
+	<Item Name="Run Service.vi" Type="VI" URL="../Run Service.vi"/>
+	<Item Name="Register Descriptors.vi" Type="VI" URL="../RPC Messages/Register Descriptors.vi"/>
 	<Item Name="Greeter.lvclass" Type="LVClass" URL="../RPC Service/Greeter/Greeter.lvclass"/>
 </Library>
